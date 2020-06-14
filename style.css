@@ -1,0 +1,176 @@
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+}
+/* Navbar */
+.navbar {
+  background-image: linear-gradient(to right, #098fe8, #0962e8);
+  box-shadow: 1px 2px 8px black;
+  border-bottom: 1px solid grey;
+}
+.navbar-brand {
+  font-weight: 900;
+  font-size: 20px;
+  text-shadow: -2px 2px 7px black;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.nav-item {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 30px;
+  font-weight: 600;
+  text-shadow: -1px 1px 7px black;
+}
+.nav-link{
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+.nav-link:hover::after{
+  content: '';
+  display: block;
+  border-bottom: 3px solid #9bb8f2;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+.btn-1 {
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+    box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+    background: linear-gradient(to left, #437df0 30%, #098fe8 );
+    border-radius: 25px;
+    padding: 10px 34px;
+    background-size: 100% auto;
+    color: white !important;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-shadow: -2px 2px 7px black;
+    transition: 0.3s;
+    opacity: 0.9;
+}
+.btn:hover{
+  background: #098fe8;
+  opacity: 1;
+}
+
+.header {
+  margin-top: 100px;
+}
+.dev {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+.namo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/* Carousel */
+.carousel {
+  height: 300px;
+  background: linear-gradient(to left, #437df0 30%, #098fe8 );
+  color: white;
+}
+.carousel h1 {
+  font-family: 'Lora';
+}
+.carousel p {
+  font-weight: 200;
+}
+
+/* My Portfolio */
+.portfolio {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card{
+  margin-left: 45px;
+}
+.card-body p{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 13px;
+  text-align: left;
+}
+
+
+/* Footer */
+.footer {
+  background: linear-gradient(to left, #437df0 30%, #098fe8 );
+  color: white;
+}
+.fname {
+  font-size: 20px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 900;
+  text-shadow: -1px 1px 7px black;
+  text-transform: uppercase;
+}
+.featx {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+/* ABOUT */
+.jumbotron {
+  height: 500px;
+  background-image: url('image/jumbo.jpg');
+  background-size: cover;
+  margin-top: -20px;
+  position: relative;
+  z-index: 0;
+}
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+.jumbotron img {
+  position: relative;
+  top: 50px;
+  width: 230px;
+  height: 240px;
+}
+
+.info-panel {
+  height: 100px;
+  margin-top: -80px;
+  background: linear-gradient(to right, #098fe8, #0962e8);;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+  border-radius: 20px;
+}
+.namo2 {
+  font-family: 'Roboto',sans-serif;
+  font-size: 70px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 400;
+  text-shadow: -1px 1px 7px black;
+}
+
+/* About */
+.about .card{
+  margin-left: 0px;
+}
+.card-body p {
+  font-size: 15px;
+}
+
+/* Contact */
+.contact {
+  margin-top: 100px;
+}
